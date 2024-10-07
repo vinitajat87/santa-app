@@ -6,12 +6,8 @@ Welcome to the Santa Application! This is a simple Node.js web application that 
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Environment Variables](#environment-variables)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
+- [Installation](#installation)
 
 ## Features
 
