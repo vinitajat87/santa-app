@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Error Page</title>
+    <!-- Link to external CSS for styling the page -->
+    <link rel="stylesheet" href="/css/styles.css" />
+    <!-- Add a meta description for SEO -->
+    <meta
+      name="description"
+      content="Error page displaying relevant error messages."
+    />
+    <!-- Adding festive styles -->
+    <style>
+      body {
+        background-color: #f8d7da; /* Light red background color */
+        font-family: "Arial", sans-serif; /* Set a fun font */
+        color: #721c24; /* Dark red text color */
+        text-align: center; /* Center text alignment */
+      }
+      header {
+        margin-top: 50px; /* Space above header */
+      }
+      h1 {
+        font-size: 2.5rem; /* Increase font size */
+        color: #dc3545; /* Bootstrap danger color */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+      }
+      main {
+        margin: 20px; /* Space around the main content */
+        padding: 20px; /* Internal padding */
+        border-radius: 15px; /* Rounded corners */
+        background: white; /* White background for contrast */
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+      }
+      p {
+        font-size: 1.2rem; /* Slightly larger text */
+        line-height: 1.5; /* Better line spacing */
+      }
+      .back-link {
+        display: inline-block; /* Inline block for button-like appearance */
+        margin-top: 20px; /* Space above the link */
+        padding: 10px 20px; /* Padding for the link */
+        background-color: #007bff; /* Bootstrap primary color */
+        color: white; /* White text */
+        text-decoration: none; /* Remove underline */
+        border-radius: 5px; /* Rounded corners */
+        transition: background-color 0.3s; /* Smooth transition */
+      }
+      .back-link:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Error Occurred</h1>
+    </header>
+
+    <main>
+      <p><%= error %></p>
+      <!-- Inject dynamic error message using template engine -->
+      <a href="/" class="back-link">Go Back to Home</a>
+      <!-- Link to return home -->
+    </main>
+  </body>
+</html>

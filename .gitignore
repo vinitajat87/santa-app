@@ -1,0 +1,42 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# Build directories
+dist/
+build/
+tmp/
+
+# Dependency directories
+jspm_packages/
+
+# Production build
+build/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+
+# Miscellaneous
+*.tgz
+*.gz
+*.zip
+
+# Additional patterns to ignore
+*.local
+*.bak
+*.swp

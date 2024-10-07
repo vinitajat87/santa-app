@@ -1,0 +1,13 @@
+/* Style for the main form container */
+#form {
+  margin-left: 50px; /* Add space to the left of the form */
+}
+
+/* Additional styles for form responsiveness can be added here */
+/* Example for mobile devices */
+@media (max-width: 600px) {
+  #form {
+    margin-left: 20px; /* Reduce left margin on smaller screens */
+    margin-right: 20px; /* Add right margin on smaller screens */
+  }
+}
